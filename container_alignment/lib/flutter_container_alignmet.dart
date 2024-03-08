@@ -10,39 +10,43 @@ class flutter_container_alignment extends StatelessWidget {
       appBar: AppBar(
         title: Text("Flutter Container ALignment"),
       ),
-      body: Column(
-        children: [
-          Container(
-            height: 100,
-            width: 100,
-            color: Colors.purple[100],
-            child: Text("Container"),
-          ),
-          Container(
-            height: 100,
-            width: 100,
-            color: Colors.purple[200],
-            child: Text("Container"),
-          ),
-          Container(
-            height: 100,
-            width: 100,
-            color: Colors.purple[300],
-            child: Text("Container"),
-          ),
-          Container(
-            height: 100,
-            width: 100,
-            color: Colors.purple[400],
-            child: Text("Container"),
-          ),
-          Container(
-            height: 100,
-            width: 100,
-            color: Colors.purple[500],
-            child: Text("Container"),
-          ),
-        ],
+      body: Container(
+        color: Colors.black,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: [
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.purple[100],
+              child: Text("Container"),
+            ),
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.purple[200],
+              child: Text("Container"),
+            ),
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.purple[300],
+              child: Text("Container"),
+            ),
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.purple[400],
+              child: Text("Container"),
+            ),
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.purple[500],
+              child: Text("Container"),
+            ),
+          ],
+        ),
       ),
     );
   }
