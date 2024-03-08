@@ -12,7 +12,7 @@ class flutter_container_alignment extends StatelessWidget {
       ),
       body: Container(
         color: Colors.purpleAccent[700],
-        width: 200,
+        width: double.infinity,
         child: SingleChildScrollView(
           scrollDirection: Axis.horizontal,
           child: Row(
