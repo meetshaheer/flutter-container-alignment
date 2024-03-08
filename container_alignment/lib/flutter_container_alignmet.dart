@@ -11,8 +11,10 @@ class flutter_container_alignment extends StatelessWidget {
         title: Text("Flutter Container ALignment"),
       ),
       body: Container(
-        color: Colors.black,
+        color: Colors.purpleAccent[700],
+        width: 200,
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
             Container(
