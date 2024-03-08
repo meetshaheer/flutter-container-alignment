@@ -13,41 +13,42 @@ class flutter_container_alignment extends StatelessWidget {
       body: Container(
         color: Colors.purpleAccent[700],
         width: 200,
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
-          children: [
-            Container(
-              height: 100,
-              width: 100,
-              color: Colors.purple[100],
-              child: Text("Container"),
-            ),
-            Container(
-              height: 100,
-              width: 100,
-              color: Colors.purple[200],
-              child: Text("Container"),
-            ),
-            Container(
-              height: 100,
-              width: 100,
-              color: Colors.purple[300],
-              child: Text("Container"),
-            ),
-            Container(
-              height: 100,
-              width: 100,
-              color: Colors.purple[400],
-              child: Text("Container"),
-            ),
-            Container(
-              height: 100,
-              width: 100,
-              color: Colors.purple[500],
-              child: Text("Container"),
-            ),
-          ],
+        child: SingleChildScrollView(
+          scrollDirection: Axis.horizontal,
+          child: Row(
+            children: [
+              Container(
+                height: 100,
+                width: 100,
+                color: Colors.purple[100],
+                child: Text("Container"),
+              ),
+              Container(
+                height: 100,
+                width: 100,
+                color: Colors.purple[200],
+                child: Text("Container"),
+              ),
+              Container(
+                height: 100,
+                width: 100,
+                color: Colors.purple[300],
+                child: Text("Container"),
+              ),
+              Container(
+                height: 100,
+                width: 100,
+                color: Colors.purple[400],
+                child: Text("Container"),
+              ),
+              Container(
+                height: 100,
+                width: 100,
+                color: Colors.purple[500],
+                child: Text("Container"),
+              ),
+            ],
+          ),
         ),
       ),
     );
