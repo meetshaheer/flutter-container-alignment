@@ -24,6 +24,7 @@ class flutter_container_alignment extends StatelessWidget {
               color: Colors.purple[100],
               child: Text("Container"),
             ),
+            Spacer(),
             Container(
               height: 100,
               width: 100,
