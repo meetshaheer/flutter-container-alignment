@@ -12,11 +12,10 @@ class flutter_container_alignment extends StatelessWidget {
       ),
       body: Container(
         color: Colors.purpleAccent[700],
-        width: 200,
+        width: double.infinity,
         child: Column(
           // mainAxisSize: MainAxisSize.max,
           mainAxisSize: MainAxisSize.min,
-
           children: [
             Container(
               height: 100,
